@@ -1,0 +1,18 @@
+*   9a8a3e5 (HEAD -> master, origin/master, origin/HEAD) Resolved conflict
+|\
+| *   aec0edd Merge pull request #11 from ninadodikj/3-list-tasks-sorted-by-name
+| |\
+| | *   aeafd2f (origin/3-list-tasks-sorted-by-name) Merge branch 'master' into 3-list-tasks-sorted-by-name
+| | |\
+| | |/
+| |/|
+| * |   e657786 Merge pull request #10 from ninadodikj/1-remove-a-task-by-name
+| |\ \
+| | * | 63ebad1 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implemented removeTask
+| |/ /
+| | * d9cb7c1 (3-list-tasks-sorted-by-name) Implemented sortTasksByName
+| |/
+* / 8bfa7a6 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Implemented cou
+ntTasksPerCategory
+|/
+* dcd3481 Initial commit

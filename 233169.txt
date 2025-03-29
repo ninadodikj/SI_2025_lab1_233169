@@ -1,0 +1,30 @@
+git fetch - ги синхронизира локалниот репозиториум и remote репозиториумот.
+
+git checkout 1-remove-a-task-by-name - за да се префрлам на првата гранка што ја одбрав
+git add . - промените одат  staged
+git commit -m "implemented removeTask" - праќам комит со следната порака
+git push origin - ги праќам промените на GitHub (remote repo)
+
+git checkout 3-list-tasks-sorted-by-name - се префрлам на втората гранка
+git add . - промените ги праќам на сцена 
+git commit -m "implemented sortTasksByName" - правам комит со следната порака
+git push origin - новите пораки ги прикачувам на github
+
+Се случуваат конфликти и се справувам со нив во текст едиторот.
+
+git checkout 7-count-tasks-per-category - за да се префрлам на третата гранка
+git add . - промените одат staged
+git commit -m "implemented countTasksPerCategory" - правам комит со соодветна порака 
+git push origin - новите пораки ги прикачувам на github
+
+git checkout master - со оваа команда се префлрам на мастер гранката
+git merge 7-count-tasks-per-category - ја спојувам третата гранка со мастер
+
+git pull - ги превземаме промените од remote repo, на нашето локално repo.
+При megre се случува конфликт и го решавам во Java едиторот, со Fast-Forward стратегијата.
+git add . - ги праќам на сцена промените
+git commit -m "resolved merge conflict" - повторно правам нов комит со следната порака
+git push origin master - ги праќам промените на GitHub (remote repo)
+
+git log --oneline --graph --all - команда со која ги гледам сите логови
+nano logs.txt - креирам нов фајл и внатре го ставам излезот од командата git log --oneline --graph --all
